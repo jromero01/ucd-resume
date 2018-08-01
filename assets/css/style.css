@@ -247,6 +247,43 @@ footer .cv-pdf i:hover {
 
 /*-----------------------------------------------------------------Personal Info*/
 
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+
+/*-----------------------------------------------------------------Media Queries*/
+
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
