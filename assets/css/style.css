@@ -15,8 +15,16 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
 .bg-color-work-history {
     background-color: #9b59b6;
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -34,7 +42,6 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
-
 
 
 body {
@@ -68,10 +75,11 @@ h4 {
 
 
 .inline-block {
+
     display: inline-block;
 }
 
-/********in the " Adding Contact Details: Final Styles " section contact details of the mini project the style below was not allowing the blocks to be one on top of the other in mobile-view************
+/********in the " Adding Contact Details: Final Styles " section contact details of the mini project the style below was not allowing the blocks to be one on top of the other in mobile-view**************
 
 .section-column {
     padding: 0 30px 30px;
@@ -79,7 +87,7 @@ h4 {
     display: table-cell;
 }
 
-*********when running through the code determine why was said style placed in the first place? and why did it cause the bug? the placement also had to be moved because of the mobile first approach*****************/
+******when running through the code determine why was said style placed in the first place? and why did it cause the bug? the placement also had to be moved because of the mobile first approach*****************/
 
 .row-table {
     display: table;
@@ -209,13 +217,14 @@ footer .cv-pdf i:hover {
 
 
 .social-links {
+    padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 25px;
+    height: 25px;
+    padding: 9px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
@@ -357,6 +366,30 @@ footer .cv-pdf i:hover {
     margin-bottom: 30px;
 }
 
+
+
+/*-----------------------------------------------------------------------Contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-srif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
 /*-----------------------------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
@@ -364,5 +397,11 @@ footer .cv-pdf i:hover {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
+    }
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
