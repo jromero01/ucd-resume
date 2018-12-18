@@ -23,7 +23,7 @@
     background-color: #9b59b6;
 }
 
-.bg-color-contact {
+.bg-color-passwordApp {
     background-color: #ffffff;
 }
 
@@ -35,11 +35,11 @@
     background-color: #9b59b6;
 }
 
-.ui-menu-color-contact {
+.ui-menu-color-passwordApp {
     background-color: #3498db;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-upload {
     background-color: #525252;
 }
 
@@ -79,7 +79,7 @@ h4 {
     display: inline-block;
 }
 
-/********in the " Adding Contact Details: Final Styles " section contact details of the mini project the style below was not allowing the blocks to be one on top of the other in mobile-view**************
+/********in the " Adding passwordApp Details: Final Styles " section passwordApp details of the mini project the style below was not allowing the blocks to be one on top of the other in mobile-view**************
 
 .section-column {
     padding: 0 30px 30px;
@@ -368,9 +368,15 @@ footer .cv-pdf i:hover {
 
 
 
-/*-----------------------------------------------------------------------Contact*/
+/*-----------------------------------------------------------------------passwordApp*/
 
-.contact-heading {
+.form-control {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.passwordAPP-heading {
     font-family: "Exo", sans-srif;
     font-weight: 300;
     margin-top: 25px;
@@ -383,12 +389,15 @@ footer .cv-pdf i:hover {
     max-width: 70%;
 }
 
+
 button[type="submit"] {
+    padding-top: 10px;
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
 }
+
 
 /*-----------------------------------------------------------------Media Queries*/
 
